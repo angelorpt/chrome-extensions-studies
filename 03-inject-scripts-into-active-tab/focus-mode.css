@@ -1,0 +1,28 @@
+* {
+  display: none !important;
+}
+
+html,
+body,
+*:has(article),
+article,
+article *,
+main {
+  display: revert !important;
+}
+
+[role="navigation"] {
+  display: none !important;
+}
+
+article,
+main {
+  margin: auto;
+  max-width: 1000px;
+}
+
+div.w-\[900px\] {
+  display: revert !important;
+  margin: auto;
+  max-width: 1000px;
+}
